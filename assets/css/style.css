@@ -1,0 +1,263 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+/* font-family: 'Inconsolata', monospace; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+
+/*~~~~~~~~~~ Manadatory class ~~~~~~~~~~~*/
+a:link,
+a:hover,
+a:focus,
+a:active
+{
+	text-decoration:none;
+}
+.row,
+.row::after,
+.row::before
+{
+	clear:both;
+	display:table;
+	width:100%;
+}
+.row > :first-child
+{
+	padding-left:0px;
+}
+.row > :last-child
+{
+	padding-right:0px;
+}
+.container
+{
+	width:1060px;
+	margin:0 auto;
+}
+.grid3, .grid4, .grid6, .grid8, .grid9, .grid10
+{
+	float:left;
+	padding:0 30px;
+}
+.grid3
+{
+	width:25%;     /* width: calc((100% * 3) / 12); */
+}
+.grid4
+{
+	width: calc((100% * 4) / 12);
+}
+.grid8
+{
+	width: calc((100% * 8) / 12);
+}
+.grid9
+{
+	width:75%;
+}
+.grid6
+{
+	width:50%;
+}
+.grid10
+{
+	width: calc((100% * 10) / 12);
+}
+/*~~~~~~~~~~ helper class ~~~~~~~~~~~*/
+.txt-up
+{
+	text-transform:uppercase;
+}
+.mb-134
+{
+	margin-bottom:134px;
+}
+.mb-132
+{
+	margin-bottom:132px;
+}
+.mb-122
+{
+	margin-bottom:122px;
+}
+.mb-85
+{
+	margin-bottom:85px;
+}
+.mb-75
+{
+	margin-bottom:75px;
+}
+.mb-52
+{
+	margin-bottom:52px;
+}
+.mr-50
+{
+	margin-right: -50px;
+}
+.ml-grid1
+{
+	margin-left: calc(100% / 12);
+}
+.ml-grid4
+{
+	margin-left: calc(400% / 12);
+}
+/*============================================================== Section first starts ======================================================================*/
+.minimo
+{
+	padding:70px 0 99px;
+}
+.logo a
+{
+	font-size:30px;
+	color:#000;
+	font-family: 'Inconsolata', monospace;
+}
+.navbar
+{
+	text-align:right;
+}
+.navbar li
+{
+	list-style:none;
+	display:inline-block;
+	margin:0 40px;
+}
+.navbar li a
+{
+	display:inline-block;
+	font-size:14px;
+	color:#626262;
+	padding: 10px;
+	font-family: 'Playfair Display', serif;
+}
+/*============================================================== Section Second starts ======================================================================*/
+.label
+{
+	font-size:14px;
+	color:#b4ad9e;
+	margin-bottom:28px;
+	text-transform:uppercase;
+	font-family: 'Ubuntu', sans-serif;
+}
+.info
+{
+	color:#626262;
+	font-family: 'Playfair Display', serif;
+}
+.info h3
+{
+	font-size:30px;
+	margin-bottom:34px;
+	font-weight:lighter;
+}
+.info p
+{
+	font-size:14px;
+	text-align:justify;
+}
+.thumb-img
+{
+	margin-bottom:31px;
+}
+/*============================================================== Section Third starts ======================================================================*/
+.sign-up
+{
+	background-color:#f0f0f0;
+	padding:75px 0;
+}
+.grid12
+{
+	text-align:center;
+}
+.sign-up-heading h3
+{
+	font-size:30px;
+	font-weight:lighter;
+	color:#333333;
+	font-family: 'Playfair Display', serif;
+	margin-bottom:82px;
+}
+.input-grid
+{
+	position:relative;
+}
+.input-mail
+{
+	padding:10px;
+	border:0;
+	outline:none;
+	border-bottom:1px solid #000;
+	background-color:transparent;
+	width:90%;
+	font-size:14px;
+}
+.input-grid i
+{
+	cursor:pointer;
+	font-size:30px;
+	transform: rotate(50deg);
+	position:absolute;
+	right:25px;
+	color:#868685;
+}
+/*============================================================== Section Fourth starts ======================================================================*/
+.lifestyle
+{
+	padding:103px 0 68px 0;
+}
+.button .load
+{
+	font-size:20px;
+	color:#626262;
+	cursor:pointer;
+	padding:22px 33px;
+	background-color:#ffffff;
+}
+/*============================================================== Section Footer starts ======================================================================*/
+.footer
+{
+	background-color:#f0f0f0;
+	padding:42px 0;
+}
+.footer-icons ul
+{
+	text-align:right;
+}
+.terms ul li, .footer-icons ul li
+{
+	list-style:none;
+	display:inline-block;
+	font-size:14px;
+}
+.terms ul li a 
+{
+	display:inline-block;
+	color:#000;
+	padding:8.5px;
+	font-size:14px;
+}
+.terms ul li:first-child a
+{
+	padding-left:0;
+}
+.footer-icons ul li a
+{
+	display:inline-block;
+	color:#626262;
+	padding:8.5px;
+	font-size:14px;
+}
+.footer-icons ul li:last-child a
+{
+	padding-right:0;
+}
+/*=========================================================================== Section Footer Ends ==============================================================================*/

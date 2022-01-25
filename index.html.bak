@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Minimø</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="./assets/css/style.css">
+	</head>
+	<body>
+	<!-- /*============================================================== Section First starts ======================================================================*/ -->
+		<Section class="minimo">
+			<div class="container">
+				<div class="row mb-75">
+					<div class="grid3">
+						<div class="logo txt-up">
+							<a href="index.html">minimø</a>
+						</div>
+					</div>
+					<div class="grid9">
+						<nav>
+							<ul class="navbar txt-up">
+								<li><a href="javascript:;">lifestyle</a></li>
+								<li><a href="javascript:;">photodiary</a></li>
+								<li><a href="javascript:;">music</a></li>
+								<li><a href="javascript:;" class="mr-50">travel</a></li>
+							<ul>
+						</nav>
+					</div>
+				</div>
+				<div class="row">
+					<div class="heroimg">
+						<img src="./assets/images/heroimg.jpg">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /*============================================================== Section Second starts ======================================================================*/ -->
+		<section class="photodiary">
+			<div class="container">
+				<div class="row">
+					<div class="grid10 ml-grid1">
+						<div class="label">
+							<p>photodiary</p>
+						</div>
+						<div class="info mb-52">
+							<h3> The perfect weekend getaway </h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+							</p>
+						</div>
+						<div class="label">
+							<p class="mb-134">leave a comment</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="grid10 ml-grid1">
+						<div class="row mb-132">
+							<div class="grid6">
+								<div class="thumbnail">
+									<div class="thumb-img">
+										<img src="./assets/images/left1.jpg">
+									</div>
+									<div class="thumb-info">
+										<div class="label">
+											<p>Lifestyle</p>
+										</div>
+										<div class="info">
+											<h3> More than just a music festival </h3>
+											<p> 
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="grid6">
+								<div class="thumbnail">
+									<div class="thumb-img">
+										<img src="./assets/images/right1.jpg">
+									</div>
+									<div class="thumb-info">
+										<div class="label">
+											<p>Lifestyle</p>
+										</div>
+										<div class="info">
+											<h3> Life tastes better with coffee </h3>
+											<p> 
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row mb-122">
+							<div class="grid6">
+								<div class="thumbnail">
+									<div class="thumb-img">
+										<img src="./assets/images/left2.jpg">
+									</div>
+									<div class="thumb-info">
+										<div class="label">
+											<p>photodiary</p>
+										</div>
+										<div class="info">
+											<h3> American dream </h3>
+											<p> 
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="grid6">
+								<div class="thumbnail">
+									<div class="thumb-img">
+										<img src="./assets/images/right2.jpg">
+									</div>
+									<div class="thumb-info">
+										<div class="label">
+											<p>photodiary</p>
+										</div>
+										<div class="info">
+											<h3> A day exploring the Alps </h3>
+											<p> 
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /*============================================================== Section Third starts ======================================================================*/ -->
+		<section class="sign-up">
+			<div class="row">
+				<div class="grid12">
+					<div class="grid4 ml-grid4">
+						<div class="sign-up-heading">
+							<h3> Sign up for our newsletter ! </h3>
+						</div>
+						<div class="input-grid">
+							<input type="text" name="" id="" class="input-mail" placeholder="Enter a valid email address">
+							<i class="fab fa-telegram-plane"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /*============================================================== Section Fourth starts ======================================================================*/ -->
+		<section class="lifestyle">
+			<div class="container">
+				<div class="row"> 
+					<div class="grid10 ml-grid1">
+						<div class="row mb-85">
+							<div class="grid6">
+								<div class="thumbnail">
+									<div class="thumb-img">
+										<img src="./assets/images/left3.jpg">
+									</div>
+									<div class="thumb-info">
+										<div class="label">
+											<p>Lifestyle</p>
+										</div>
+										<div class="info">
+											<h3> Top 10 song for running </h3>
+											<p> 
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="grid6">
+								<div class="thumbnail">
+									<div class="thumb-img">
+										<img src="./assets/images/right3.jpg">
+									</div>
+									<div class="thumb-info">
+										<div class="label">
+											<p>Lifestyle</p>
+										</div>
+										<div class="info">
+											<h3> Cold winter days </h3>
+											<p> 
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="grid12">
+								<div class="button">
+									<input type="button" value="Load More" class="load">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /*============================================================== Section Footer starts ======================================================================*/ -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="grid3 ml-grid1">
+						<div class="terms">
+							<ul>
+								<li><a href="javascript:;">Terms and Conditions</a></li>
+								<li><a href="javascript:;">Privacy</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="grid8">
+						<div class="footer-icons">
+							<ul>
+								<li>Follows</li>
+								<li><a href="javascript:;"><i class="fab fa-facebook-f" title="facebook-f"></i></a></li>
+								<li><a href="javascript:;"><i class="fab fa-twitter" title="twitter"></i></a></li>
+								<li><a href="javascript:;" class="pd-0"><i class="fab fa-instagram-square" title="instagram-square"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
